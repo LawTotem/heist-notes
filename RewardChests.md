@@ -52,7 +52,8 @@ The main drops from blight chests are
 - Blight Maps
 - Blight Scarab
 
-I think the blight oil drop rate starts at about 3 for clear oil and then decreasing by $\frac{2}{3}$ per tier.
+Grouping all oils and assuming they *are not* currency gives me the most stable estimate for drop rates.
+I see less clear oils in blueprints relative contracts, so its not impossible that rarity impacts which oils drop.
 
 Maps with the enchant *Area Contains a Blight Encounter*. Even in lvl 83 contracts drop yellow tier maps most of the time. I tracked for fungal maps instead of blight encounters so my tracking for this might be more off than normal.
 
@@ -60,11 +61,7 @@ Like abyss scarabs, blight scarabs can be rusted, polished, gilded.
 
 | Item | Estimated Drop Rate |
 | --- | --- |
-| Clear Oil | ~2.9 | 
-| Sepia Oil | ~2.0 |
-| Amber Oil | ~1.0 |
-| Verdant Oil | ~0.8 |
-| Teal Oil | ~0.5 |
+| Any Oil | ~7.7 |
 | Azure Oil | ~0.2 |
 | Blight Maps | ~0.3-0.5 |
 | Blight Scarab | ~0.3-0.5 |
@@ -80,13 +77,15 @@ The main drops from breach chests are
 
 Breach Rings can be used to create grasping mail.
 
+Grouping all breach splinters and assuming they *are* currency gives me the most stable estimate for drop rates.
+I see slightly more rare splinters in blueprints relative to contracts so its not impossible that rarity impacts which splinters drop.
+
 Like the other league scarabs, breach scarabs can be rusted, polished, gilded.
 
 | Item | Estimated Drop Rate |
 | --- | --- |
 | Breach Ring | ~0.5 |
-| Breach Splinter (!Chayula) | ~4.5-7 |
-| Breach Splinter Chayula | ~1 |
+| Breach Splinters (All) | ~6 |
 | Breach Scarab | ~0.5-1 |
 
 ## Currency
@@ -124,10 +123,13 @@ The main drops from delirium chests are
 
 The cluster jewels don't appear to drop fractured or synthesised. About 2 in 9 are small 3 in 9 are medium and 4 in 9 are large.
 
+***Note*** Simulacrum Splinters are the strangest drop. I see a lot drop sometimes and sometimes none, also I see less in blueprints than in contracts.
+
 | Item | Estimated Drop Rate |
 | --- | --- |
 | Simulacrum Splinter | ~3.5-6 |
 | Cluster Jewel | ~1 |
+| Deli Maps | ~0.4 |
 
 ## Divination
 
@@ -164,109 +166,10 @@ It seems like the drop rate for these essences are split with all the orange-red
 
 | Item | Estimated Drop Rate |
 | --- | --- |
-| Screaming Essence | 
+| Screaming Essence (any) | 4.4 |
 | Screaming Essence (Low) | 0.24 |
 | Screaming Essence (Mid) | 0.15|
 | Remnant of Corruption | ~0.1 |
-
-## Fragments
-
-![image](poe-heistress/static/HeistRewardFragments.png)
-
-The main drops from fragment chests
-- Sacrifice Fragments
-- Offering to the Goddess
-- Scarabs
-
-Historically fragment chests could drop boss fragments, but the table was changed some time near Archnemesis league.
-It's also possible that historically it could drop upgraded offering to the goddess.
-Something to keep your eye out for.
-
-I think most of my Atziri sets are from heist, so this should be a pretty good approximate of the distribution.
-
-| Sacrifice | Count |
-| --- | --- |
-| Dusk | 238 |
-| Noon | 121 |
-| Dawn | 183 |
-| Midnight | 80 |
-
-| Item | Estimated Drop Rate |
-| --- | --- |
-| Sacrifice Fragment | ~3.7-3.9 |
-| Offering to the Goddess | ~0.6-0.9 |
-| Scarab | ~1.2-1.8 |
-
-## Generic
-
-![image](poe-heistress/static/HeistRewardGeneric.png)
-
-General chests can drop things from any of the other chests, but my intuition is that currency is over-represented.
-
-## Legion
-
-![image](poe-heistress/static/HeistRewardLegion.png)
-
-The main drops from the legion chests are
-- Incubators
-- Legion Splinter
-- Legion Scarab
-
-I've found a pretty good mix of incubators. I gave a bunch to a guild mate but of the ones I still have, I don't seem to have any foreboding, which seems odd, or celestial blacksmith, though I have the armour one, or Geomancer's (6-link), which I think can only come at the end of currency/trinket blueprints. It's possible that diviner's and fragmented are the most common, and skittering, abyss, enchanted, infused, and primal is well represented.
-
-Legion splinter drops are not uniform, the *typically* more common ones, Eternal Empire, Karui, and Vaal, are more common, Templar are uncommon, and Maraketh are rare.
-
-Legion scarabs appear to be a bit more rare than some of the other league scarabs, but it may be an artifact of the small sample count.
-
-| Item | Estimated Drop Rate |
-| --- | --- |
-| Incubator | ~1.4-1.6 |
-| Legion Splinter | ~4-6 |
-| Legion Scarab | ~0.1-0.2 |
-
-## Maps
-
-The main drops from map chests are
-- Maps
-- Awakened Sextants
-- Boss Maps
-- Cartography Scarab
-
-By boss maps either one of the shaper/elder guardians or conquerors and the drop rate is the accumulated amount, so 0.1 would be 0.1 boss maps dropped per chest, which could be any of the supported types.
-
-| Item | Estimated Drop Rate |
-| --- | --- |
-| Awakened Sextants | ~1.2-1.5 |
-| Boss Maps | ~0.1-0.2 |
-| Shaper Guardians | ~0.05-0.1 |
-| Elder Guardians | ~0.02|
-| Conquerors | ~0.06 |
-| Cartography Scarab | ~0.05 |
-
-## Metamorph
-
-![image](poe-heistress/static/HeistRewardMetamorph.png)
-
-- Catalyst
-- Metamorph Scarab
-
-I think this distribution should be pretty representative of the what you would find in terms of catalysists, excepting some of the fertiles probably came from the divination card "The Finishing Touch".
-
-| Catalyst | Count |
-| --- | --- |
-| Intrinsic | 133 |
-| Imbued | 88 |
-| Noxious | 70 |
-| Turbulent | 69 |
-| Abrasive | 66 |
-| Fertile | ~30 |
-| Prismatic | 19 |
-| Tempering | 18 |
-
-| Item | Estimated Drop Rate |
-| --- | --- |
-| Catalyst | ~3.5-5 |
-| Metamorph Scarab | ~0.2 |
 
 ## Fossils
 
@@ -312,6 +215,112 @@ I don't think I've traded or used any fossils, so I think these fossil and reson
 | Fossil | ~1.9 |
 | Resonator | ~0.35 |
 | Sulphite Scarab | ~0.1-0.2 |
+
+## Fragments
+
+![image](poe-heistress/static/HeistRewardFragments.png)
+
+The main drops from fragment chests
+- Sacrifice Fragments
+- Offering to the Goddess
+- Scarabs
+
+Historically fragment chests could drop boss fragments, but the table was changed some time near Archnemesis league.
+It's also possible that historically it could drop upgraded offering to the goddess.
+Something to keep your eye out for.
+
+I get the best results assuming that Sacrifice Fragments *are not* currency items.
+
+I get the best results assuming that Offering to the Goddess *is* a currency item.
+
+I think most of my Atziri sets are from heist, so this should be a pretty good approximate of the distribution.
+
+| Sacrifice | Count |
+| --- | --- |
+| Dusk | 238 |
+| Noon | 121 |
+| Dawn | 183 |
+| Midnight | 80 |
+
+| Item | Estimated Drop Rate |
+| --- | --- |
+| Sacrifice Fragment | ~3.7-3.9 |
+| Offering to the Goddess | ~0.6 |
+| Scarab | ~1.2-1.8 |
+
+## Generic
+
+![image](poe-heistress/static/HeistRewardGeneric.png)
+
+General chests can drop things from any of the other chests, but my intuition is that currency is over-represented.
+
+## Legion
+
+![image](poe-heistress/static/HeistRewardLegion.png)
+
+The main drops from the legion chests are
+- Incubators
+- Legion Splinter
+- Legion Scarab
+
+I've found a pretty good mix of incubators. I gave a bunch to a guild mate but of the ones I still have, I don't seem to have any foreboding, which seems odd, or celestial blacksmith, though I have the armour one, or Geomancer's (6-link), which I think can only come at the end of currency/trinket blueprints. It's possible that diviner's and fragmented are the most common, and skittering, abyss, enchanted, infused, and primal is well represented.
+
+I get the best fit assuming that legion splinters *are* currency, but I still typcally see more in blueprints.
+Legion splinter drops are not uniform, the *typically* more common ones, Eternal Empire, Karui, and Vaal, are more common, Templar are uncommon, and Maraketh are rare.
+
+Legion scarabs appear to be a bit more rare than some of the other league scarabs, but it may be an artifact of the small sample count.
+
+| Item | Estimated Drop Rate |
+| --- | --- |
+| Incubator | ~1.4-1.6 |
+| Legion Splinter | ~4-5 |
+| Legion Scarab | ~0.1-0.2 |
+
+## Maps
+
+The main drops from map chests are
+- Maps
+- Awakened Sextants
+- Boss Maps
+- Cartography Scarab
+
+By boss maps either one of the shaper/elder guardians or conquerors and the drop rate is the accumulated amount, so 0.1 would be 0.1 boss maps dropped per chest, which could be any of the supported types.
+
+| Item | Estimated Drop Rate |
+| --- | --- |
+| Awakened Sextants | ~1.2-1.5 |
+| Boss Maps | ~0.1-0.2 |
+| Shaper Guardians | ~0.05-0.1 |
+| Elder Guardians | ~0.02|
+| Conquerors | ~0.06 |
+| Cartography Scarab | ~0.05 |
+
+## Metamorph
+
+![image](poe-heistress/static/HeistRewardMetamorph.png)
+
+- Catalyst
+- Metamorph Scarab
+
+I get the best fit assuming that catalysts *are* currency.
+
+I think this distribution should be pretty representative of the what you would find in terms of catalysists, excepting some of the fertiles probably came from the divination card "The Finishing Touch".
+
+| Catalyst | Count |
+| --- | --- |
+| Intrinsic | 133 |
+| Imbued | 88 |
+| Noxious | 70 |
+| Turbulent | 69 |
+| Abrasive | 66 |
+| Fertile | ~30 |
+| Prismatic | 19 |
+| Tempering | 18 |
+
+| Item | Estimated Drop Rate |
+| --- | --- |
+| Catalyst | ~3.6 |
+| Metamorph Scarab | ~0.2 |
 
 ## Harbingers
 
