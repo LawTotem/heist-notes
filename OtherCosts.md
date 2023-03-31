@@ -16,11 +16,13 @@ All, except the rogue hire cost, are deterministic, so you should be able to che
 ## Ring Cut
 The ring cut is deterministic based on the Area Level of the contract.
 It ranges from 105 to 193 Rogue Markers for area levels from 46 to 83, with the following equation a pretty good approximation.
+
 $$ 193 - 2.385 \left(83 - \ell\right) $$
 
 ## Transport Cost
 The transport cost, like the ring cut, only depends on the Area Level of the contract.
 It varies from 51 to 94 Rogue Markers for area levels from 46 to 83, with the following equation as a pretty good approximation.
+
 $$ 1.17 \left(\ell - 46\right) + 51 $$
 
 ## Rogue Hire Cost
@@ -54,7 +56,8 @@ Area Level's impact on the price of things is a bit more complicated.
 It appears to break into two distinct regions.
 
 
-$$ \text{Precious} = \left\lbrace \begin{aligned} 643 + 14.85 \left(\ell - 45\right) &\quad \text{if } \ell < 68\\ 987 + 55 \left(\ell - 68\right) + 0.638 \left(\ell - 68\right)^2 & \quad \text{otherwise} \end{aligned} \right. $$
+$$ \text{Precious} = \left\lbrace \begin{aligned} 643 + 14.85 \left(\ell - 45\right) &\quad \text{if } \ell < 68 \\
+987 + 55 \left(\ell - 68\right) + 0.638 \left(\ell - 68\right)^2 & \quad \text{otherwise} \end{aligned} \right. $$
 
 For a rough idea at area level 45 I think a precious reward would be about 643 Rogue markers, by 68 this would have increased to 985 at about 15 rogue markers per level.
 After level 68 the rogue markers per level becomes 55 and ramps up to 75 at area level 83, where a precious reward would be worth 1954 Markers.
